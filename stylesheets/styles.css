@@ -1,1 +1,31 @@
-/* Put your CSS here */
+body {
+    background: rgb(184, 216, 241);
+    font-size: 25px;
+}
+
+a[href="#"] {
+    text-decoration: none;
+}
+
+.thumbnail-title {
+    background: rgb(33, 153, 233);
+    color: rgb(0, 0, 0);
+    display: block;
+    margin: 0;
+    padding: 0.4em 1em;
+}
+
+.thumbnail-image {
+    display: block;
+    width: 100%;
+}
+
+.thumbnail-item {
+    display: block;
+    border: 1px solid rgb(100%, 100%, 100%);
+    border: 1px solid rgba(100%, 100%, 100%, .08);
+}
+
+.thumbnail-list {
+    list-style: none;
+}
