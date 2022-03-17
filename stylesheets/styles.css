@@ -39,6 +39,7 @@ body {
       width: 100%;
       align-items: center;
       max-height: 80px;
+      object-fit: cover;
   }
 
 .thumbnail-item {
@@ -69,10 +70,10 @@ body {
 }
 
 .detail-image-container {
-    flex: 1 1 auto;
+    flex: 1 1;
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex: start;
 }
 
 .detail-image-frame {
@@ -85,7 +86,6 @@ body {
 .detail-image-title {
     color: white;
     font-size: 40px;
-    position: absolute;
     bottom: -16px;
     left: 4px;
     text-shadow: rgba(0, 0, 0, 0.9) 1px 2px 9px;
@@ -128,6 +128,10 @@ body {
 }
 
   @media all and (min-width: 800px) {
+      main { 
+          display: inline-flex;
+        flex-direction: row;
+}
       .main-content {
           flex-direction: row;
           overflow: hidden;
