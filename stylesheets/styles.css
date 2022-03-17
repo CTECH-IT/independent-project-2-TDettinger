@@ -1,41 +1,4 @@
-/*
-html, body {
-    height: 100%;
-}
 
-body {
-    background: rgb(184, 216, 241);
-    font-size: 25px;
-}
-
-a[href="#"] {
-    text-decoration: none;
-}
-
-.thumbnail-title {
-    background: rgb(33, 153, 233);
-    color: rgb(0, 0, 0);
-    display: block;
-    margin: 0;
-    padding: 0.4em 1em;
-}
-
-.thumbnail-image {
-    display: block;
-    width: 100%;
-}
-
-.thumbnail-item {
-    display: block;
-    border: 1px solid rgb(100%, 100%, 100%);
-    border: 1px solid rgba(100%, 100%, 100%, .08);
-}
-
-.thumbnail-list {
-    list-style: none;
-}
-
-*/
 html, body {
     height: 100%;
 }
@@ -101,7 +64,7 @@ body {
     order: 2;
 
     overflow-x: auto;
-    padding: 20px 0;
+    padding: 20px 40px;
     white-space: nowrap;
 }
 
@@ -126,6 +89,11 @@ body {
     bottom: -16px;
     left: 4px;
     text-shadow: rgba(0, 0, 0, 0.9) 1px 2px 9px;
+}
+
+.image-text {
+    font-size: 25px;
+    position: flex;
 }
 
 .is-tiny {
@@ -169,6 +137,10 @@ body {
           margin-left: 20px;
           order: 0;
           padding: 0 35px;
+      }
+      .image-text {
+          flex-direction: row;
+          margin-left: 150px;
       }
 
  .thumbnail-item {
