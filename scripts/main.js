@@ -6,7 +6,6 @@ const DETAIL_FRAME_SELECTOR = '[data-image-role="frame"]';
 const THUMBNAIL_LINK_SELECTOR = '[data-image-role="trigger"]';
 const HIDDEN_DETAIL_CLASS = 'hidden-deatil';
 const TINY_EFFECT_CLASS = 'is-tiny';
-const ESC_KEY_CODE = 27;
 const TEXT = ['Unicef provides over 600 million meals to those in need each year! Making sure mouths are fed is the first step to giving hope to those in need.',
  'Giving children the ability to be happy and curious is crutial to helping them develop. Unicef sends thousands of staff and voluneeters to play with and cheer up the children.',
   'Unicef provides those in poverty with the tools they need to work their way out. School supplies are crutial to the education of the youth and Unicef is proud to help.',
