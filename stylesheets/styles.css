@@ -137,10 +137,11 @@ body {
           margin-left: 20px;
           order: 0;
           padding: 0 35px;
+          max-width: 120px;
       }
       .image-text {
-          flex-direction: row;
-          margin-left: 150px;
+          display: flex;
+          flex-direction: column;
       }
 
  .thumbnail-item {
